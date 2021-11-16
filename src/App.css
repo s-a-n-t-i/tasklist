@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.task-list {
+  display: flex;
+}
+
+.task:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 450px) {
+  .task-list{
+    flex-direction: column;
+  }
+}
